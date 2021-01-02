@@ -3,7 +3,6 @@ body {
   background-color: #ffffff;
   color: #111111;
   font-family: Palatino, "Times New Roman", Times, serif;
-  font-weight: 500;
 }
 
 section h1 {
@@ -18,25 +17,25 @@ section {
 }
 
 .container {
-  width: 100%;
+  width: auto;
   max-width: 1200px;
   margin: 0 auto;
   padding: 32px;
 }
 @media screen and (min-width: 600px) {
   .container {
-    padding: 32px 0;
+    padding: 32px;
   }
 }
 @media screen and (min-width: 1024px) {
   .container {
-    padding: 64px 0;
+    padding: 64px;
   }
 }
 
 html {
   -webkit-font-smoothing: antialiased;
-  font-size: 16px;
+  font-size: 14px;
 }
 @media screen and (min-width: 600px) {
   html {
@@ -50,7 +49,7 @@ html {
 }
 
 p {
-  max-width: 600px;
+  font-size: 1.15rem;
   line-height: 1.6;
 }
 p a {
